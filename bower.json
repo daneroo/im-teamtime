@@ -19,8 +19,10 @@
     "angular-mocks": "~1.2",
     "angular-ui-utils": "~0.1",
     "angular-bootstrap": "~0.10",
-    "moment": "~2.5",
+    "moment": "~2.6.0",
     "less.js": "~1.6",
-    "font-awesome": "~4.0"
+    "font-awesome": "~4.0",
+    "angular-moment": "~0.7.0",
+    "moment-timezone": "~0.0.6"
   }
 }

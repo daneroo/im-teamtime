@@ -1,6 +1,11 @@
 <div class="col-md-12" ng-controller="HomeCtrl">
-  <h4>Local: {{currentTime}}</h4>
-  <div ng-repeat="u in users">
-    {{u.name}} : {{u.TZ}}
-  </div>
+  <h4>Local: {{currentTime | amDateFormat:fullTimeFormat}}</h4>
+
+  <dl class="dl-horizontal">
+    <dt ng-repeat-start="u in users">{{u.name}}</dt>
+    <dd ng-repeat-end>
+      {{fmt(currentTime,u.TZ)}} <i>({{u.TZ}})</i>
+    </dd>
+  </dl>
+
 </div>

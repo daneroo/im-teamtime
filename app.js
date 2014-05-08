@@ -1,4 +1,4 @@
-angular.module('teamtime', ['ui.bootstrap','ui.utils','ui.router','ngAnimate']);
+angular.module('teamtime', ['ui.bootstrap','ui.utils','ui.router','ngAnimate','angularMoment']);
 
 angular.module('teamtime').config(function($stateProvider, $urlRouterProvider) {
 
