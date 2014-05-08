@@ -1,0 +1,8 @@
+*.log
+_SpecRunner.html
+.grunt/
+temp/
+node_modules/
+dist/
+bower_components/
+.idea/
