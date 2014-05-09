@@ -1,11 +1,24 @@
 <div class="col-md-12" ng-controller="HomeCtrl">
   <h4>Local: {{currentTime | amDateFormat:fullTimeFormat}}</h4>
 
-  <dl class="dl-horizontal">
+<!--   <dl class="dl-horizontal">
     <dt ng-repeat-start="u in users">{{u.name}}</dt>
     <dd ng-repeat-end>
       {{fmt(currentTime,u.TZ)}} <i>({{u.TZ}})</i>
     </dd>
   </dl>
+ -->
+<ul class="media-list">
+  <li ng-repeat="u in users" class="media">
+    <a class="pull-left" href="#">
+      <img class="media-object" src="//placehold.it/48x48" alt="Profile">
+    </a>
+    <div class="media-body">
+      <h5 class="media-heading">{{u.name}}</h5>
+      <!-- <div class="media-heading">{{u.name}}</div> -->
+      <div>{{fmt(currentTime,u.TZ)}} <i>({{u.TZ}})</i></div>
+    </div>
+  </li>
+</ul>
 
 </div>
