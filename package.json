@@ -1,7 +1,10 @@
 {
   "name": "teamtime",
   "version": "0.0.0",
-  "devDependencies": {
+    "scripts": {
+        "test": "grunt test"
+    },
+    "devDependencies": {
     "grunt": "~0.4",
     "grunt-dom-munger": "~3.4",
     "grunt-angular-templates": "~0.5",
