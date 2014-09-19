@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "deploy": "divshot push"
+    "deploy": "grunt build && divshot push"
   },
   "devDependencies": {
     "divshot": "^0.4.8",
