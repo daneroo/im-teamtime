@@ -2,7 +2,10 @@
 
 [ ![Codeship Status for daneroo/im-teamtime](https://www.codeship.io/projects/2ac0d0a0-21dd-0132-e8f5-6a1232367835/status)](https://www.codeship.io/projects/36365)
 
-Before I dive into iconic, famo.us or meteor. let's give this a spin
+Before I dive into iconic, famo.us or meteor. let's give this a spin.
+
+This repo is deployed to [im-teamtime.divshot.io](http://development.im-teamtime.divshot.io/) on [divshot](https://divshot.com/) by [codeship](https://www.codeship.io), for continuous integration.
+
 
 ## Grunt Tasks
 
