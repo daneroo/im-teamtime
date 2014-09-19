@@ -186,7 +186,8 @@ module.exports = function (grunt) {
         singleRun: true
       },
       all_tests: {
-        browsers: ['PhantomJS','Chrome','Firefox']
+        // browsers: ['PhantomJS','Chrome','Firefox']
+        browsers: ['PhantomJS','Chrome']
       },
       during_watch: {
         browsers: ['PhantomJS']

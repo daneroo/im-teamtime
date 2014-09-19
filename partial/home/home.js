@@ -52,26 +52,26 @@ angular.module('teamtime').controller('HomeCtrl', function($scope, $interval, mo
 
   // https://github.com/urish/angular-moment
   $scope.users = [{
-    name: 'Tom',
-    TZ: 'Europe/Zagreb'
-  }, {
     name: 'Oleg',
     TZ: 'Europe/Kiev'
   }, {
     name: 'Andrei',
     TZ: 'Europe/Minsk'
   }, {
-    name: 'Ray',
-    TZ: 'America/Los_Angeles'
-  }, {
-    name: 'Keith',
-    TZ: 'America/Los_Angeles'
+    name: 'Tom',
+    TZ: 'Europe/Zagreb'
   }, {
     name: 'Daniel',
     TZ: 'America/Montreal'
   }, {
     name: 'Alex',
     TZ: 'America/Montreal'
+  }, {
+    name: 'Ray',
+    TZ: 'America/Los_Angeles'
+  }, {
+    name: 'Keith',
+    TZ: 'America/Los_Angeles'
   }];
 
 });
